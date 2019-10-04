@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejemplo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.js">
+  /*function MostrarMensaje()
+  {
+    $("#divMensaje").html($("#mensaje").val());
+    $.ajax({
+      type: "POST",
+      url: "./Backend/test.php",
+      data: "mensaje=" + $("#mensaje").val(),
+      datatype: "json"
+    })
+    .done(function(obj){
+      console.log(obj);
+      alert("Exito");
+    })
+    .fail(function(obj){
+      alert("Error");
+    })
+  }*/
+  </script>
+</head>
+<body>
+  <input type="text" id="mensaje">
+  <br>
+  <input type="button" onclick="MostrarMensaje()" value="Mostrar">
+  <br>
+  <input type="file" id="archivos">
+  <br>
+  <img id="imagen" width="100px" height="100px">
+<div id="divMensaje"></div>
+</body>
+</html>
